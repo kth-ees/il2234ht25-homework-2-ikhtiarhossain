@@ -1,5 +1,51 @@
+`timescale 1ns/1ps
 module shift_register_tb;
 
-// complete here
+    localparam N = 4;
+
+    logic clk, rst_n, serial_parallel, load_enable, serial_in, serial_out;
+    logic [N-1:0] parallel_in, parallel_out;
+
+    shift_register #(.N(N)) DUT (
+        .clk(clk);
+        .rst_n(rst_n);
+        .serial_parallel(serial_parallel);
+        .load_enable(load_enable);
+        .serial_in(serial_in);
+        .parallel_in(parallel_in);
+        .parallel_out(parallel_out);
+        .serial_out(serial_out)
+    );
+
+    initial clk = 0;
+    always #5 clk = ~clk;
+
+    initial begin
+        rst_n = 0;
+        serial_parallel = 0;
+        load_enable = 0;
+        serial_in = 0;
+        parallel_in = 0;
+        #12 rst_n = 1'b1;
+
+        @(posedge clk);
+        parallel_in = 4'b1010;
+        serial_parallel = 1;
+        load_enable = 1;
+        @(posedge clk);
+        load_enable = 0;
+        $display("Parallel load -> parallel_out=%b, serial_out=%b", parallel_out, serial_out);
+
+        serial_parallel = 0;
+        load_enable = 1;
+        serial_in = 1; @(posedge clk);
+        serial_in = 1; @(posedge clk);
+        serial_in = 0; @(posedge clk);
+        serial_in = 0; @(posedge clk);
+        load_enable = 0;
+        $display("Serial shift -> parallel_out=%b, serial_out=%b", parallel_out, serial_out);
+
+        #10 $finish;
+    end
 
 endmodule
