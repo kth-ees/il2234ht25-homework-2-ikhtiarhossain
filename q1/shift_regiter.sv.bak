@@ -10,7 +10,7 @@ module shift_register #(parameter N=4)
 
     always_ff @(posedge clk or negedge rst_n) begin
         if (!rst_n)
-            parallel_out <= {N{1'b0}};
+            parallel_out <= N'd0;
         else if (load_enable)
             parallel_out <= serial_parallel ? parallel_in : {serial_in, parallel_out[N-1:1]};
     end

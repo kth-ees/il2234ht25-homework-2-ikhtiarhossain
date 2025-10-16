@@ -1,0 +1,15 @@
+/home/ikhtiar/github-classroom/kth-ees/il2234ht25-homework-2-ikhtiarhossain/q1/shift_register_tb.sv {1 {vlog -work work -vopt -sv -stats=none /home/ikhtiar/github-classroom/kth-ees/il2234ht25-homework-2-ikhtiarhossain/q1/shift_register_tb.sv
+QuestaSim-64 vlog 2022.4 Compiler 2022.10 Oct 18 2022
+-- Compiling module shift_register_tb
+
+Top level modules:
+	shift_register_tb
+
+} {} {}} /home/ikhtiar/github-classroom/kth-ees/il2234ht25-homework-2-ikhtiarhossain/q1/shift_regiter.sv {1 {vlog -work work -vopt -sv -stats=none /home/ikhtiar/github-classroom/kth-ees/il2234ht25-homework-2-ikhtiarhossain/q1/shift_regiter.sv
+QuestaSim-64 vlog 2022.4 Compiler 2022.10 Oct 18 2022
+-- Compiling module shift_register
+
+Top level modules:
+	shift_register
+
+} {} {}}

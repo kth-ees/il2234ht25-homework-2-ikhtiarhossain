@@ -7,13 +7,13 @@ module shift_register_tb;
     logic [N-1:0] parallel_in, parallel_out;
 
     shift_register #(.N(N)) DUT (
-        .clk(clk),
-        .rst_n(rst_n),
-        .serial_parallel(serial_parallel),
-        .load_enable(load_enable),
-        .serial_in(serial_in),
-        .parallel_in(parallel_in),
-        .parallel_out(parallel_out),
+        .clk(clk);
+        .rst_n(rst_n);
+        .serial_parallel(serial_parallel);
+        .load_enable(load_enable);
+        .serial_in(serial_in);
+        .parallel_in(parallel_in);
+        .parallel_out(parallel_out);
         .serial_out(serial_out)
     );
 

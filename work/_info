@@ -1,0 +1,73 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+!s11f vlog 2022.4 2022.10, Oct 18 2022
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 d/home/ikhtiar/github-classroom/kth-ees/il2234ht25-hw3-ikhtiarhossain
+T_opt
+!s110 1760644701
+V>1z;C6mV_eSPEb14I3cmi1
+04 17 4 work shift_register_tb fast 0
+=1-000ae431a4f1-68f14e5d-69fff-5f86
+R0
+!s12b OEM100
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work +acc
+Z2 tCvgOpt 0
+n@_opt
+OL;O;2022.4;75
+R1
+vshift_register
+Z3 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z4 !s110 1760644799
+!i10b 1
+!s100 jF22]YY;cg=GASWN<c63K2
+INR?YYL@dUAeQf78P4czF52
+S1
+Z5 d/home/ikhtiar/github-classroom/kth-ees/il2234ht25-homework-2-ikhtiarhossain
+w1760644685
+8/home/ikhtiar/github-classroom/kth-ees/il2234ht25-homework-2-ikhtiarhossain/q1/shift_regiter.sv
+F/home/ikhtiar/github-classroom/kth-ees/il2234ht25-homework-2-ikhtiarhossain/q1/shift_regiter.sv
+!i122 6
+L0 1 20
+Z6 VDg1SIo80bB@j0V0VzS_@n1
+Z7 OL;L;2022.4;75
+r1
+!s85 0
+31
+Z8 !s108 1760644799.000000
+!s107 /home/ikhtiar/github-classroom/kth-ees/il2234ht25-homework-2-ikhtiarhossain/q1/shift_regiter.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/ikhtiar/github-classroom/kth-ees/il2234ht25-homework-2-ikhtiarhossain/q1/shift_regiter.sv|
+!i113 0
+Z9 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vshift_register_tb
+R3
+R4
+!i10b 1
+!s100 4Vh:QdiiBoN28;VPKDhZS2
+I3K1VTV?m@5jc@_]@TaaJ@1
+S1
+R5
+w1760644793
+8/home/ikhtiar/github-classroom/kth-ees/il2234ht25-homework-2-ikhtiarhossain/q1/shift_register_tb.sv
+F/home/ikhtiar/github-classroom/kth-ees/il2234ht25-homework-2-ikhtiarhossain/q1/shift_register_tb.sv
+!i122 5
+L0 2 50
+R6
+R7
+r1
+!s85 0
+31
+R8
+!s107 /home/ikhtiar/github-classroom/kth-ees/il2234ht25-homework-2-ikhtiarhossain/q1/shift_register_tb.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/ikhtiar/github-classroom/kth-ees/il2234ht25-homework-2-ikhtiarhossain/q1/shift_register_tb.sv|
+!i113 0
+R9
+R2
